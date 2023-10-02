@@ -2,7 +2,7 @@
   "name": "n-conditional-love",
   "description": "a versatile, headless query builder for react",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "n-conditional",
     "unconditional",
@@ -23,7 +23,7 @@
     "dev": "vite",
     "lint": "tsc && prettier --check .",
     "build": "vite build",
-    "release": "pnpm run lint && pnpm run build && changesets version",
+    "release": "pnpm run lint && pnpm run build && changeset version",
     "test": "vitest"
   },
   "devDependencies": {
